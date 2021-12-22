@@ -2,7 +2,6 @@ local HumanGen = game.Workspace.Unbreakable.Characters.Human["Human General"].To
 local OrcGen = game.Workspace.Unbreakable.Characters.Orc["Orc General"].Torso
 local TPtoGen = game.Players.LocalPlayer.Character.HumanoidRootPart
 
--- GetGenLocationOrcGen.CFrame  <-- idk what this is suppose to do but im removing it
 --while true do
 --TPtoGen.CFrame = OrcGen.CFrame
 --wait(1)
