@@ -2,19 +2,11 @@ local HumanGen = game.Workspace.Unbreakable.Characters.Human["Human General"].To
 local OrcGen = game.Workspace.Unbreakable.Characters.Orc["Orc General"].Torso
 local TPtoGen = game.Players.LocalPlayer.Character.HumanoidRootPart
 
---while true do
---TPtoGen.CFrame = OrcGen.CFrame
---wait(1)
---end
---if game.Players.LocalPlayer.Human == true then
 while true do
 wait(0.2)
 TPtoGen.CFrame = OrcGen.CFrame
 wait(0.1)
 TPtoGen.CFrame = HumanGen.CFrame
 end
-
---while true do
---TPtoGen.CFrame = HumanGen.CFrame
---wait(1)
---end
+-------------------
+-
