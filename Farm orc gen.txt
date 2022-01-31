@@ -9,4 +9,3 @@ wait(0.1)
 TPtoGen.CFrame = HumanGen.CFrame
 end
 -------------------
--
