@@ -1,0 +1,31 @@
+for i,v in pairs(game.Workspace:GetDescendants()) do
+     if v.ClassName == 'TouchTransmitter' and v.Parent.Name == 'Bomb' then
+     local TPtoGen = game.Players.LocalPlayer.Character.HumanoidRootPart
+     local SafeZone = game.Workspace.Unbreakable.Permanent.Lobby.BuildingAlign
+    TPtoGen.CFrame = v.Parent.CFrame
+    task.wait (2.35)
+        if v.ClassName == 'TouchTransmitter' and v.Parent.Name == 'Projectile' then
+             local TPtoGen = game.Players.LocalPlayer.Character.HumanoidRootPart
+             local SafeZone = game.Workspace.Unbreakable.Permanent.Lobby.BuildingAlign
+            TPtoGen.CFrame = v.Parent.CFrame
+            task.wait (2.35)
+            if v.ClassName == 'TouchTransmitter' and v.Parent.Name == 'Arrow' then
+                 local TPtoGen = game.Players.LocalPlayer.Character.HumanoidRootPart
+                 local SafeZone = game.Workspace.Unbreakable.Permanent.Lobby.BuildingAlign
+                TPtoGen.CFrame = v.Parent.CFrame
+                task.wait (2.35)
+                if v.ClassName == 'TouchTransmitter' and v.Parent.Name == 'Sphere' then
+                     local TPtoGen = game.Players.LocalPlayer.Character.HumanoidRootPart
+                     local SafeZone = game.Workspace.Unbreakable.Permanent.Lobby.BuildingAlign
+                    TPtoGen.CFrame = v.Parent.CFrame
+                task.wait (2.35)
+    TPtoGen.CFrame = SafeZone.CFrame
+ end
+end
+ end
+end               
+end
+print ("Arrow")
+print ("Sphere")
+print ("Projectile")
+print ("Bomb")

@@ -1,0 +1,13 @@
+while true do
+    wait (0.50)
+for i,v in pairs(game.Workspace:GetDescendants()) do -- grabs everything from workspace
+    if v.ClassName == 'TouchTransmitter' and v.Parent.Name == 'Gem' then
+        local TPtoGen = game.Players.LocalPlayer.Character.HumanoidRootPart
+        local SafeZone = game.Workspace.Unbreakable.Permanent.Lobby.BuildingAlign
+        TPtoGen.CFrame = v.Parent.CFrame
+        task.wait(1.55)
+    TPtoGen.CFrame = SafeZone.CFrame
+    end
+end
+print ("working")
+end
